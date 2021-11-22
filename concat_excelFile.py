@@ -25,6 +25,6 @@ def concat_file(a,b):
     #输出合并和的excel文件
     return
 
-path = "C:\\Users\Administrator\Desktop\\arousal"
-res = "F:\DEAP\data_preprocessed_matlab\mat_result\deap_shuffled_data\\result\DEAP\\s.xlsx"
+path = "./arousal"
+res = "./s.xlsx"
 concat_file(path,res)
